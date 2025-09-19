@@ -1,5 +1,14 @@
-project:
-  title: "repom"
+0project:
+  type: website
 
+website:
+  title: "My Simple Quarto Page"   # TÍTULO DEL SITIO (navbar)
+  navbar:
+    left:
+      - href: repom.qmd
+        text: Home
 
-
+format:
+  html:
+    theme: cosmo
+    toc: false
